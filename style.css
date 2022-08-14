@@ -1,0 +1,87 @@
+.calculator {
+    height: 400px;
+    width: 400px;
+    border: solid #2C4F6E;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.displayit {
+    height: 50px;
+    width: 394px;
+    border: solid;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #A8CFF0;
+    border-color: #2C4F6E;
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+.buttons {
+    height: 350px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.design {
+    height: 100%;
+    width: 50px;
+    flex: 1;
+
+}
+
+.subtract,
+.add,
+.multiply,
+.clearit,
+.equal {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.divide {
+    width: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: #A8CFF0;
+    font-family: 'PT Serif', serif;}
+
+    .clear {
+        width: 160px;
+    }
+
+    .numbers {
+        background-color: #5FABED;
+        border-color: #5FABED;
+        color: white;
+        font-family: 'PT Serif', serif;
+        font-size: 30px;
+    }
+
+    .operator {
+        background-color: #4B88BD;
+        border-color: #4B88BD;
+        color: antiquewhite;
+        font-size: 30px;
+    }
+
+    .ok {
+        color: antiquewhite;
+        background-color: #5FABED;
+        border-color: #A8CFF0;
+        font-family: 'PT Serif', serif;
+        font-size: 30px;
+    }
